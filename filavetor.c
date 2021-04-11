@@ -5,7 +5,6 @@ void print_pessoa(Pessoa p){
 }
 //========================================
 void new_fila(Fila *f){
-  Pessoa *nova;
   f->inicio = 0;
   f->fim = 0;
   f->tam = 0;
