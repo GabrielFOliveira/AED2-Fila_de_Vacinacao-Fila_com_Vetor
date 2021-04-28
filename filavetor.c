@@ -14,6 +14,32 @@ void enqueue(Fila *f, Pessoa dado){
   f->tam++;
   f->fim++;
   f->F[f->fim] = dado;
+
+/*
+  if(dado.prioridade==5){ 
+    f->tam++;
+    f->fim++;
+    f->F[f->fim] = dado;
+  }
+  else{
+   
+
+    for(int i=f->fim;i>f->inicio; i--){
+
+      if(dado[i].prioridade<dado[i+1].prioridade){
+          fila[i+1] = fila [i];
+          fila[i] = dado;
+      }
+        
+    }
+    
+    nova->prox=temp->prox;
+    temp->prox=nova;
+    f->tam++;
+
+  }
+  */
+
 }
 //========================================
 int size_fila(Fila *f){
