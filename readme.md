@@ -46,7 +46,7 @@ void print_fila_especifica(Fila *f, int p){}
 
 Os critérios para encaixe nas respectivas filas de vacinação seguiram a proposta do **Professor**, e, também os critérios seguidos pelo **Ministério da Saúde**, que pode ser consultado acima na sessão de **Introdução**.
 
-O sistema foi implementado utilizando **Fila dinâmica** e **Fila estática**, que pode ser acessado pelo **link**: https://github.com/AbraMelo/Fila-de-Vacina-o-C---AEDII
+O sistema foi implementado utilizando **Fila  estática**, por orientação do Professor, foi desenvolvido também utilizando **Fila dinâmica**, que pode ser acessado pelo **link**: https://github.com/AbraMelo/Fila-de-Vacina-o-C---AEDII
 
 A necessidade da utilização da estrutura de Fila com Prioridade vem pela observação da necessidade de inserir os elementos(struct Pessoa) dentro da estrutura de forma ordenada.
 
